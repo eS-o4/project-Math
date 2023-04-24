@@ -40,7 +40,7 @@ class MathProblemGUI:
             else:
                 self.result_label.config(text="Ответ неправильный. Попробуйте еще раз.")
         except:
-            self.result_label.config(text="Введите число.")
+            self.result_label.config(text="Сгенерируйте пример.")
 
 
 root = tk.Tk()
